@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.rui.scopeinvestment'
+    namespace 'com.rui.lifecyclescopeinvestment'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.rui.scopeinvestment"
+        applicationId "com.rui.lifecyclescopeinvestment"
         minSdk 24
         targetSdk 34
         versionCode 1
