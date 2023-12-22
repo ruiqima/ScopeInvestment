@@ -1,4 +1,4 @@
-package com.rui.scopeinvestment.screens
+package com.rui.lifecyclescopeinvestment.screens
 
 import androidx.compose.runtime.Composable
 import androidx.navigation.compose.NavHost

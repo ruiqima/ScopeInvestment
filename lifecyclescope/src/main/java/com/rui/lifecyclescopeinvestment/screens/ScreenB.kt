@@ -1,4 +1,4 @@
-package com.rui.scopeinvestment.screens
+package com.rui.lifecyclescopeinvestment.screens
 
 import android.util.Log
 import androidx.compose.foundation.layout.Column
