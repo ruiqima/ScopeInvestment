@@ -1,6 +1,3 @@
-__TL;NR__
-
-- 
 |     | phone rotation | navigating to another screen |
 | -------- | ------- | ------- |
 | `LaunchedEffect` | cancelled | cancelled  |
