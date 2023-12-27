@@ -1,15 +1,14 @@
 __TL;NR__
 
-- See the table below for how `LaunchedEffect`, `rememberCoroutineScope()`, `viewModelScope` behave differently for job cancellation.
-
+- 
 |     | phone rotation | navigating to another screen |
 | -------- | ------- | ------- |
 | `LaunchedEffect` | cancelled | cancelled  |
 | `rememberCoroutineScope()` | cancelled | cancelled |
 | `viewModelScope` | Job keeps running until finished | Job keeps running until finished |
 
-- `LaunchedEffect` and `rememberCoroutineScope()` are attached to the composable lifecycle.
-- `viewModelScope` is attached to the ViewModel lifecycle.
+- `LaunchedEffect` and `rememberCoroutineScope()` are attached to the composable lifecycle. The jobs will be cancelled if the composable leaves its composition.
+- `viewModelScope` is attached to the ViewModel lifecycle. The jobs will be cancelled if the viewModel is cleared.
 
 ## Composable Lifecycle
 
