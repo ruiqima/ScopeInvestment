@@ -16,3 +16,4 @@ dependencyResolutionManagement {
 rootProject.name = "Scope investment"
 include ':launchedeffectinvestment'
 include ':lifecyclescope'
+include ':mixinvestment'

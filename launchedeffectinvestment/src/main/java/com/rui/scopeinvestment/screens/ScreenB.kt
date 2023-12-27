@@ -13,8 +13,10 @@ fun ScreenB(
 ) {
     Column {
         Text(text = "Current screen: B")
-        Button(onClick = { navController.navigate("A") }) {
+        Button(onClick = {
+            navController.navigate("A")
             Log.d("investLog", "navigate to screen A")
+        }) {
             Text(text = "Navigate back to A")
         }
     }
